@@ -13,6 +13,7 @@ RUN mkdir /opt && \
   cd /opt && \
   git clone https://github.com/RuudBurger/CouchPotatoServer.git
 
+RUN apk --update add bash
 ## Expose port
 EXPOSE 5050
 
